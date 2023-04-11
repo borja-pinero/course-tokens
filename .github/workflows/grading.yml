@@ -4,6 +4,8 @@ on:
     paths:
       - grading_config.yml
   workflow_dispatch:
+  
+permissions: write-all
 
 jobs:
   grade-learner:
